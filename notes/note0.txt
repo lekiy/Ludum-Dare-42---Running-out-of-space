@@ -1,0 +1,18 @@
+Ludum dare 42 - Running out of space
+
+Protect an oblisk from monsters as the world shrinks around you
+
+needed for prototype:
+
+player
+	abilites
+
+oblisk
+	power up interface
+
+map
+	tiles
+	random generation
+	tiles falling off the end
+
+enemies
