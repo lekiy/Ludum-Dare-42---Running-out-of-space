@@ -1,8 +1,8 @@
 {
-    "id": "8b684e08-e5b5-418f-9ae1-d5dafd057071",
+    "id": "3ecee9e3-bceb-4016-85ca-99feb37b981e",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "scr_generate_map",
+    "name": "grid_pos_y",
     "IsCompatibility": false,
     "IsDnD": false
 }

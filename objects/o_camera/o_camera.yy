@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "o_camera",
     "eventList": [
-        
+        {
+            "id": "960b652c-4074-4b4e-8797-5adacef43449",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "c7e14be2-b332-41a6-95ce-0f403bcbfadf"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

@@ -1,8 +1,8 @@
 {
-    "id": "1b54ee1b-1b68-4771-a84e-006eadcad990",
+    "id": "4b55e769-e09e-442b-9ee6-a89f12fe0fde",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "scr_build_map",
+    "name": "shake_tile",
     "IsCompatibility": false,
     "IsDnD": false
 }
