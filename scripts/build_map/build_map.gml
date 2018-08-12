@@ -8,7 +8,7 @@ for(var col = 0; col < map_width; col++){
 		
 		if(global.level_map[# col, row] >= 1){
 			instance_create_layer(grid_pos_x(col,row),grid_pos_y(col,row), "Tiles", o_tile);
-			show_debug_message("Tile Created");
+			//show_debug_message("Tile Created");
 		}
 	}
 }

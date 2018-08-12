@@ -19,4 +19,4 @@ x+=vel_x;
 y+=vel_y;
 z+=vel_z;
 
-show_debug_message("X: "+string(pos_to_grid_x(x, y))+" Y: "+string(pos_to_grid_y(x, y)));
+//show_debug_message("X: "+string(pos_to_grid_x(x, y))+" Y: "+string(pos_to_grid_y(x, y)));

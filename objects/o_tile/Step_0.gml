@@ -2,7 +2,7 @@
 depth = -y;
 
 if(!is_stablized){
-	hp--;
+	hp-=instibility;
 }else{
 	hp++
 	hp = min(hp, hp, max_hp);
