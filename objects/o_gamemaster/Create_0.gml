@@ -19,5 +19,5 @@ player = instance_create_layer(grid_pos_x(width-2, height)/2, grid_pos_y(width, 
 
 spawn_oblisks(6);
 
-
-//camera_set_view_size(cam, width*TILE_WIDTH, (width*TILE_WIDTH)*0.75);
+var cam = view_get_camera(0);
+camera_set_view_size(cam, camera_get_view_width(cam)*0.75, camera_get_view_height(cam)*0.75);

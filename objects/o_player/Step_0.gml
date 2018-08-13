@@ -9,19 +9,13 @@ y_dir = -keyboard_check(ord("W"))+keyboard_check(ord("S"));
 vel_x = ground_speed*x_dir;
 vel_y = ground_speed*y_dir;
 
-if(keyboard_check(ord("E"))){
+if(keyboard_check_pressed(ord("E")) && !is_attacking){
+	is_attacking = true;
 	var obelisk = instance_nearest(x, y, o_oblisk);
 	obelisk.hp -= 1;
+	sprite_index = s_player_attack;
+	image_speed = 0;
 }
 
-if(!on_grid(x, y)){
-	vel_z = grav;	
-}else{
-	vel_z = 0;	
-}
-
-x+=vel_x;
-y+=vel_y;
-z+=vel_z;
 
 //show_debug_message("X: "+string(pos_to_grid_x(x, y))+" Y: "+string(pos_to_grid_y(x, y)));

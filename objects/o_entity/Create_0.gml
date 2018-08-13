@@ -10,7 +10,8 @@ acc_z = 0;
 
 ground_speed = 4;
 air_speed = 0.5;
-
+facing_dir = 1;
+image_speed = 0;
 grav = 8;
 ground_fric = 0.95;
 air_fric = .7;
