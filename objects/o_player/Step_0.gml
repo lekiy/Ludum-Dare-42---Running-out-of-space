@@ -9,6 +9,11 @@ y_dir = -keyboard_check(ord("W"))+keyboard_check(ord("S"));
 vel_x = ground_speed*x_dir;
 vel_y = ground_speed*y_dir;
 
+if(keyboard_check(ord("E"))){
+	var obelisk = instance_nearest(x, y, o_oblisk);
+	obelisk.hp -= 1;
+}
+
 if(!on_grid(x, y)){
 	vel_z = grav;	
 }else{

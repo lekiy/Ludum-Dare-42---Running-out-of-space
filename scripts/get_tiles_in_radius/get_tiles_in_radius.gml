@@ -3,8 +3,8 @@
 ///@arg yy
 ///@arg radius
 
-var start_x = argument0;
-var start_y = argument1+1;
+var start_x = argument0+1;
+var start_y = argument1;
 var radius = argument2;
 
 var contained_tiles = ds_list_create();

@@ -5,16 +5,12 @@ var gridy = pos_to_grid_y(x, y);
 
 var stability = 0;
 
-if(global.level_map[# gridx+1, gridy+0] >= 1){
-	stability++;	
+for(var col = -1; col <= 1; col++){
+	for(var row = -1; row <= 1; row++){
+		if(global.level_map[# gridx+col, gridy+row] >= 1){
+			stability++;	
+		}
+	}
 }
-if(global.level_map[# gridx-1, gridy+0] >= 1){
-	stability++;	
-}
-if(global.level_map[# gridx+0, gridy+1] >= 1){
-	stability++;	
-}
-if(global.level_map[# gridx+0, gridy-1] >= 1){
-	stability++;	
-}
+
 return stability;

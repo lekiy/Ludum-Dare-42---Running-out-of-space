@@ -15,7 +15,6 @@ var layers = argument2;
 var steps = 100;
 var steps_max = argument3;
 
-
 for(var j = 0; j < layers; j++){
 	xx = width/2;
 	yy = height/2;
@@ -24,10 +23,10 @@ for(var j = 0; j < layers; j++){
 		grid[# xx, yy] = 1;
 		var next = irandom(4);
 		switch(next){
-			case 0: xx++; break;
-			case 1: yy++; break;
-			case 2: xx--; break;
-			case 3: yy--; break;
+			case 0: if(xx < width) {xx++;} break;
+			case 1: if(yy < height) {yy++;} break;
+			case 2: if(xx > 0) {xx--;} break;
+			case 3: if(yy > 0) {yy--;} break;
 		}
 	}
 }

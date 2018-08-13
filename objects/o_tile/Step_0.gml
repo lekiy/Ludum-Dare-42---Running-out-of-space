@@ -1,8 +1,11 @@
 /// @description 
 depth = -y;
+flash-= 0.02;
 
 if(!is_stablized){
-	hp-=instibility;
+	if(instibility > 2){
+		hp-=instibility;
+	}
 }else{
 	hp++
 	hp = min(hp, hp, max_hp);
